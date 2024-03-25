@@ -1,5 +1,5 @@
 ---
--- @class SWEP
+-- c
 -- @section weapon_ttt_knife
 
 if SERVER then
@@ -33,7 +33,7 @@ SWEP.ViewModel = "models/weapons/cstrike/c_knife_t.mdl"
 SWEP.WorldModel = "models/weapons/w_knife_t.mdl"
 SWEP.idleResetFix = true
 
-SWEP.Primary.Damage = 50
+SWEP.Primary.Damage = 9999
 SWEP.Primary.ClipSize = -1
 SWEP.Primary.DefaultClip = -1
 SWEP.Primary.Automatic = true
@@ -134,7 +134,7 @@ function SWEP:PrimaryAttack()
             dmg:SetDamageForce(owner:GetAimVector() * 5)
             dmg:SetDamagePosition(owner:GetPos())
             dmg:SetDamageType(DMG_SLASH)
-
+            hitEnt:EmitSound("/Bios/getStab.mp3")
             hitEnt:DispatchTraceAttack(dmg, spos + (owner:GetAimVector() * 3), sdest)
         end
     end
@@ -244,6 +244,15 @@ function SWEP:StabKill(tr, spos, sdest)
     self:Remove()
 end
 
+-- 掏出刀子時發出聲音
+function SWEP:Deploy()
+    self:SendWeaponAnim(ACT_VM_DRAW)
+
+    if SERVER then
+        self:GetOwner():EmitSound("Weapon_Knife.Deploy")
+    end
+    return true
+end
 ---
 -- @ignore
 function SWEP:SecondaryAttack()
