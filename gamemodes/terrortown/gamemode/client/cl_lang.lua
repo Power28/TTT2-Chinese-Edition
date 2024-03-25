@@ -17,10 +17,10 @@ local pairs = pairs
 -- stylua: ignore
 local cv_ttt_language = CreateConVar("ttt_language", "auto", FCVAR_ARCHIVE)
 
-LANG.DefaultLanguage = "en"
+LANG.DefaultLanguage = "zh_tw"
 LANG.ActiveLanguage = LANG.DefaultLanguage
 
-LANG.ServerLanguage = "en"
+LANG.ServerLanguage = "zh_tw"
 
 local cachedDefault = {}
 local cachedActive = {}

@@ -75,7 +75,7 @@ local roundtime = CreateConVar("ttt_roundtime_minutes", "10", {FCVAR_NOTIFY, FCV
 ---
 -- @realm server
 -- stylua: ignore
-local preptime = CreateConVar("ttt_preptime_seconds", "30", {FCVAR_NOTIFY, FCVAR_ARCHIVE})
+local preptime = CreateConVar("ttt_preptime_seconds", "20", {FCVAR_NOTIFY, FCVAR_ARCHIVE})
 
 ---
 -- @realm server
@@ -85,7 +85,7 @@ local posttime = CreateConVar("ttt_posttime_seconds", "30", {FCVAR_NOTIFY, FCVAR
 ---
 -- @realm server
 -- stylua: ignore
-local firstpreptime = CreateConVar("ttt_firstpreptime", "60", {FCVAR_NOTIFY, FCVAR_ARCHIVE})
+local firstpreptime = CreateConVar("ttt_firstpreptime", "30", {FCVAR_NOTIFY, FCVAR_ARCHIVE})
 
 ---
 -- @realm server
@@ -132,12 +132,12 @@ local ttt_session_limits_enabled = CreateConVar("ttt_session_limits_enabled", "1
 ---
 -- @realm server
 -- stylua: ignore
-local round_limit = CreateConVar("ttt_round_limit", "6", SERVER and {FCVAR_NOTIFY, FCVAR_ARCHIVE, FCVAR_REPLICATED} or FCVAR_REPLICATED)
+local round_limit = CreateConVar("ttt_round_limit", "999", SERVER and {FCVAR_NOTIFY, FCVAR_ARCHIVE, FCVAR_REPLICATED} or FCVAR_REPLICATED)
 
 ---
 -- @realm server
 -- stylua: ignore
-local time_limit = CreateConVar("ttt_time_limit_minutes", "75", SERVER and {FCVAR_NOTIFY, FCVAR_ARCHIVE, FCVAR_REPLICATED} or FCVAR_REPLICATED)
+local time_limit = CreateConVar("ttt_time_limit_minutes", "9999", SERVER and {FCVAR_NOTIFY, FCVAR_ARCHIVE, FCVAR_REPLICATED} or FCVAR_REPLICATED)
 
 ---
 -- @realm server
