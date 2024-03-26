@@ -7,6 +7,7 @@ if SERVER then
 end
 
 DEFINE_BASECLASS("weapon_tttbase")
+resource.AddFile("sound/Bios/asshurt.wav")
 
 SWEP.HoldType = "knife"
 
@@ -101,7 +102,7 @@ function SWEP:PrimaryAttack()
     -- effects
     if IsValid(hitEnt) then
         self:SendWeaponAnim(ACT_VM_HITCENTER)
-
+        hitEnt:EmitSound("Bios/asshurt.wav")
         local edata = EffectData()
         edata:SetStart(spos)
         edata:SetOrigin(tr.HitPos)
