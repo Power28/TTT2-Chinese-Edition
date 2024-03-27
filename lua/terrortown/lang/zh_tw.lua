@@ -2018,11 +2018,11 @@ L.label_keyhelper_voice_team = "隊伍談話"
 --L.status_speed_description_good = "You are faster than normal. Items, equipment or effects can influence this."
 --L.status_speed_description_bad = "You are slower than normal. Items, equipment or effects can influence this."
 
---L.status_on = "on"
---L.status_off = "off"
+L.status_on = "開啟"
+L.status_off = "關閉"
 
---L.crowbar_help_primary = "Attack"
---L.crowbar_help_secondary = "Push players"
+L.crowbar_help_primary = "攻擊"
+L.crowbar_help_secondary = "推開玩家"
 
 -- 2023-10-27
 --L.help_HUD_enable_description = [[
@@ -2031,9 +2031,9 @@ L.label_keyhelper_voice_team = "隊伍談話"
 --L.label_HUD_enable_box_blur = "Enable UI box background blur"
 
 -- 2023-10-28
---L.submenu_gameplay_voiceandvolume_title = "Voice & Volume"
---L.header_soundeffect_settings = "Sound Effects"
---L.header_voiceandvolume_settings = "Voice & Volume Settings"
+L.submenu_gameplay_voiceandvolume_title = "聲音 & 音量"
+L.header_soundeffect_settings = "聲音效果"
+L.header_voiceandvolume_settings = "Voice & Volume Settings"
 
 -- 2023-11-06
 --L.drop_reserve_prevented = "Something prevents you from dropping your reserve ammo."
@@ -2041,7 +2041,7 @@ L.label_keyhelper_voice_team = "隊伍談話"
 --L.drop_no_room_ammo = "You have no room here to drop your ammo!"
 
 -- 2023-11-14
---L.hat_deerstalker_name = "Detective's Hat"
+L.hat_deerstalker_name = "警探帽"
 
 -- 2023-11-16
 --L.help_prop_spec_dash = [[
@@ -2058,10 +2058,10 @@ L.label_keyhelper_voice_team = "隊伍談話"
 --L.c4_help_secondary = "Stick to surface"
 
 -- 2023-12-11
---L.magneto_help_primary = "Push entity"
---L.magneto_help_secondary = "Pull / pickup entity"
---L.knife_help_primary = "Stab"
---L.knife_help_secondary = "Throw knife"
+L.magneto_help_primary = "推開物體"
+L.magneto_help_secondary = "拉/撿起物體"
+L.knife_help_primary = "捅人"
+L.knife_help_secondary = "丟飛刀"
 --L.polter_help_primary = "Fire thumper"
 --L.polter_help_secondary = "Charge long range shot"
 
@@ -2086,9 +2086,9 @@ L.label_keyhelper_voice_team = "隊伍談話"
 --L.c4_marker_vision_time = "Detonation time: {time}"
 --L.c4_marker_vision_collapsed = "{time} / {distance}m"
 
---L.c4_marker_vision_safe_zone = "Bomb safe zone"
---L.c4_marker_vision_damage_zone = "Bomb damage zone"
---L.c4_marker_vision_kill_zone = "Bomb kill zone"
+L.c4_marker_vision_safe_zone = "炸彈安全區"
+L.c4_marker_vision_damage_zone = "炸彈傷害區"
+L.c4_marker_vision_kill_zone = "炸彈死亡區"
 
 --L.beacon_marker_vision_player = "Tracked Player"
 --L.beacon_marker_vision_player_tracked = "This player is tracked by a Beacon"
@@ -2113,7 +2113,7 @@ L.label_keyhelper_voice_team = "隊伍談話"
 
 -- 2023-12-18
 L.body_confirm_one = "{finder} 確認了 {victim} 的死亡。"
--- L.body_confirm_more = "{finder} confirmed the {count} deaths of: {victims}."
+L.body_confirm_more = "{finder} 確認了 {count} 次 死者: {victims}."
 
 -- 2023-12-19
 --L.builtin_marker = "Built-in."
