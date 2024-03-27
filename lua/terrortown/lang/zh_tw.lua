@@ -1011,10 +1011,7 @@ L.help_hud_enabled_desc = "啟用/禁用 HUD 來限製玩家選擇它們。"
 L.help_damage_indicator_desc = "傷害指示是收到傷害時屏幕上出現的標記。若要添加新的主題，請把 png 文件放置在 'materials/vgui/ttt/damageindicator/themes/' 文件夾中。"
 L.help_shop_key_desc = "在回合開始/結束時，按商店鍵是否打開商店而不是計分板？"
 
-L.label_keyhelper_help = "按鍵選單"
-L.label_keyhelper_mutespec = "禁音"
-L.label_keyhelper_show_pointer = "顯示鼠標"
-L.label_keyhelper_spec_player = "觀察玩家"
+
 L.label_menu_menu = "菜單"
 L.label_menu_admin_spacer = "管理員選項"
 L.label_language_set = "選擇語言"
@@ -1828,10 +1825,10 @@ L.search_info = "訊息"
 L.search_confirm = "確認死亡"
 --L.search_confirm_credits = "Confirm (+{credits} Credit(s))"
 --L.search_take_credits = "Take {credits} Credit(s)"
---L.search_confirm_forbidden = "Confirm forbidden"
---L.search_confirmed = "Death Confirmed"
---L.search_call = "Report Death"
---L.search_called = "Death Reported"
+L.search_confirm_forbidden = "確認死亡被禁用"
+L.search_confirmed = "確認死亡"
+L.search_call = "呼叫探長"
+L.search_called = "報告死亡"
 
 --L.search_team_role_unknown = "???"
 
@@ -1987,30 +1984,30 @@ L.search_title_spectator = "你是觀戰者"
 --L.header_interface_keys = "Key helper settings"
 --L.header_interface_wepswitch = "Weapon switch UI settings"
 
---L.label_keyhelper_help = "open gamemode menu"
---L.label_keyhelper_mutespec = "cycle spectator voice mode"
---L.label_keyhelper_shop = "open equipment shop"
---L.label_keyhelper_show_pointer = "free mouse pointer"
+L.label_keyhelper_help = "按鍵選單"
+L.label_keyhelper_mutespec = "禁音"
+L.label_keyhelper_show_pointer = "顯示鼠標"
+L.label_keyhelper_spec_player = "觀察隨機玩家"
+L.label_keyhelper_shop = "開啟裝備商店"
 --L.label_keyhelper_possess_focus_entity = "possess focused entity"
 --L.label_keyhelper_spec_focus_player = "spectate focused player"
---L.label_keyhelper_spec_previous_player = "previous player"
---L.label_keyhelper_spec_next_player = "next player"
---L.label_keyhelper_spec_player = "spectate random player"
+L.label_keyhelper_spec_previous_player = "上一位玩家"
+L.label_keyhelper_spec_next_player = "下一位玩家"
 --L.label_keyhelper_possession_jump = "prop: jump"
 --L.label_keyhelper_possession_left = "prop: left"
 --L.label_keyhelper_possession_right = "prop: right"
 --L.label_keyhelper_possession_forward = "prop: forward"
 --L.label_keyhelper_possession_backward = "prop: backward"
 --L.label_keyhelper_free_roam = "leave object and roam free"
---L.label_keyhelper_flashlight = "toggle flashlight"
---L.label_keyhelper_quickchat = "open quickchat"
---L.label_keyhelper_voice_global = "global voice chat"
---L.label_keyhelper_voice_team = "team voice chat"
+L.label_keyhelper_flashlight = "開啟手電筒"
+L.label_keyhelper_quickchat = "打開快速談話"
+L.label_keyhelper_voice_global = "全部對話"
+L.label_keyhelper_voice_team = "隊伍談話"
 --L.label_keyhelper_chat_global = "global chat"
 --L.label_keyhelper_chat_team = "team chat"
 --L.label_keyhelper_show_all = "show all"
 --L.label_keyhelper_disguiser = "toggle disguiser"
---L.label_keyhelper_save_exit = "save and exit"
+-- L.label_keyhelper_save_exit = "save and exit"
 --L.label_keyhelper_spec_third_person = "toggle third person view"
 
 -- 2023-10-26
@@ -2115,8 +2112,8 @@ L.search_title_spectator = "你是觀戰者"
 --L.entity_pickup_owner_only = "Only the owner can pick this up"
 
 -- 2023-12-18
-L.body_confirm_one = "{finder} 確認了 {victim} 的死。"
---L.body_confirm_more = "{finder} confirmed the {count} deaths of: {victims}."
+L.body_confirm_one = "{finder} 確認了 {victim} 的死亡。"
+-- L.body_confirm_more = "{finder} confirmed the {count} deaths of: {victims}."
 
 -- 2023-12-19
 --L.builtin_marker = "Built-in."
@@ -2158,16 +2155,16 @@ L.body_confirm_one = "{finder} 確認了 {victim} 的死。"
 --L.label_crosshair_mode = "Crosshair mode"
 --L.label_crosshair_static_length = "Enable static crosshair line length"
 
---L.choice_crosshair_mode_0 = "Lines and dot"
---L.choice_crosshair_mode_1 = "Lines only"
---L.choice_crosshair_mode_2 = "Dot only"
+L.choice_crosshair_mode_0 = "線條和點"
+L.choice_crosshair_mode_1 = "只有線條"
+L.choice_crosshair_mode_2 = "只有點"
 
---L.help_crosshair_scale_enable = [[
---Dynamic crosshair enables scaling the crosshair depending on the weapon's cone. The cone is influenced by the weapon's base accuracy, multiplied with external factors such as jumping and sprinting.
---
---If the line length is kept static, only the gap scales with cone changes.]]
+L.help_crosshair_scale_enable = [[
+動態準星可根據武器的擴散度縮放準星。 擴散度受武器的基本精度影響，並與跳躍和衝刺等外部因素相乘。
 
---L.header_weapon_settings = "Weapon Settings"
+如果線的長度保持不變，則只有間隙會隨著擴散度的變化而縮放。.]]
+
+L.header_weapon_settings = "武器設置"
 
 
 --L.marker_vision_visible_for_0 = "Visible for you"
