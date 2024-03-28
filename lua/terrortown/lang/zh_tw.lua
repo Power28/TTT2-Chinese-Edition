@@ -1686,7 +1686,7 @@ L.label_session_limits_enabled = "啟用地圖更換"
 L.label_spectator_chat = "啟用觀察者與大家聊天的功能"
 L.label_lastwords_chatprint = "如果在打字時被殺，則發出最後一句話至聊天室"
 L.label_identify_body_woconfirm = "不按'確認'按鈕識別屍體"
---L.label_announce_body_found = "Announce that a body was found when the body was confirmed"
+L.label_announce_body_found = "屍體確認後 宣布發現屍體"
 L.label_confirm_killlist = "宣布確認屍體時，該屍體的擊殺名單"
 L.label_dyingshot = "如果玩家在瞄準中，則在死亡時開槍[試驗性]"
 L.label_armor_block_headshots = "啟用護甲阻擋爆頭傷害"
@@ -1812,12 +1812,12 @@ L.slot_weapon_extra = "額外槽"
 L.slot_weapon_class = "職業槽"
 
 -- 2023-10-04
---L.label_voice_duck_spectator = "Duck spectator voices"
---L.label_voice_duck_spectator_amount = "Spectator voice duck amount"
---L.label_voice_scaling = "Voice Volume Scaling Mode"
---L.label_voice_scaling_mode_linear = "Linear"
---L.label_voice_scaling_mode_power4 = "Power 4"
---L.label_voice_scaling_mode_log = "Logarithmic"
+L.label_voice_duck_spectator = "Duck spectator voices"
+L.label_voice_duck_spectator_amount = "Spectator voice duck amount"
+L.label_voice_scaling = "Voice Volume Scaling Mode"
+L.label_voice_scaling_mode_linear = "Linear"
+L.label_voice_scaling_mode_power4 = "Power 4"
+L.label_voice_scaling_mode_log = "Logarithmic"
 
 -- 2023-10-07
 L.search_title = "屍體搜索結果 - {player}"
@@ -1850,70 +1850,70 @@ L.search_dmg_teleport = "看起來他的DNA以超光速粒子之形式散亂在�
 L.search_dmg_car = "他穿越馬路時被一個粗心的駕駛碾死了。"
 L.search_dmg_other = "你無法找到這恐怖份子的具體死因。"
 
---L.search_floor_antlions = "There are still antlions all over the body. The floor must be covered with them."
---L.search_floor_bloodyflesh = "The blood on this body looks old and disgusting. There are even small bits of bloody flesh stuck to their shoes."
---L.search_floor_concrete = "Gray dust covers their shoes and knees. Looks as if the crime scene had a concrete floor."
---L.search_floor_dirt = "It smells earthy. It probably stems from the dirt that clings to the victims shoes."
---L.search_floor_eggshell = "Disgusting looking white specks cover the body of the victim. It looks like egg shells."
---L.search_floor_flesh = "The victim's clothing feels kinda moist. As if they fell onto a wet surface. Like a fleshy surface, or the sandy ground of a water body."
---L.search_floor_grate = "The skin of the victim looks like a steak. Thick lines arranged in a grid are visible all over them. Did they rest on a grate?"
---L.search_floor_alienflesh = "Alien flesh, you think? Sounds kinda outlandish. But your detective helper book lists it as a possible floor surface."
---L.search_floor_snow = "On first glance their clothing only feels wet and ice-cold. But once you see the white foam on the rims you understand. It's snow!"
---L.search_floor_plastic = "'Ouch, that has to hurt.' Their body is covered in burns. They look like those you get when sliding over a plastic surface."
---L.search_floor_metal = "At least they can't get tetanus now that they are dead. Rust covers their wounds. They probably died on a metal surface."
---L.search_floor_sand = "Small little rough rocks are stuck to their cold body. Like coarse sand from a beach. Argh, it gets everywhere!"
---L.search_floor_foliage = "Nature is wonderful. The victim's bloody wounds are covered with enough foliage that they are almost hidden."
---L.search_floor_computer = "Beep-boop. Their body is covered in computer surface! How does this look, you might ask? Well, duh!"
---L.search_floor_slosh = "Wet and maybe even a bit slimy. Their whole body is covered with it and their clothes are soaked. It stinks!"
---L.search_floor_tile = "Small shards are stuck to their skin. Like shards from floor tiles that shattered on inpact."
---L.search_floor_grass = "It smells like fresh cut grass. The smell almost overpowers the smell of blood and death."
---L.search_floor_vent = "You feel a fresh gust of air when feeling their body. Did they die in a vent and take the air with them?"
---L.search_floor_wood = "What's nicer than sitting on a hardwood floor and dwelling in thoughts? At least lot lying dead on a wooden floor!"
---L.search_floor_default = "That seems so basic, so normal. Almost default. You can't tell anything about the kind of surface."
---L.search_floor_glass = "Their body is covered with many bloody cuts. In some of them glass shards are stuck and look rather threatening to you."
---L.search_floor_warpshield = "A floor made out of warpshield? Yep, we are as confused as you were. But our notes clearly state it. Warpshield."
+L.search_floor_antlions = "There are still antlions all over the body. The floor must be covered with them."
+L.search_floor_bloodyflesh = "The blood on this body looks old and disgusting. There are even small bits of bloody flesh stuck to their shoes."
+L.search_floor_concrete = "Gray dust covers their shoes and knees. Looks as if the crime scene had a concrete floor."
+L.search_floor_dirt = "It smells earthy. It probably stems from the dirt that clings to the victims shoes."
+L.search_floor_eggshell = "Disgusting looking white specks cover the body of the victim. It looks like egg shells."
+L.search_floor_flesh = "The victim's clothing feels kinda moist. As if they fell onto a wet surface. Like a fleshy surface, or the sandy ground of a water body."
+L.search_floor_grate = "The skin of the victim looks like a steak. Thick lines arranged in a grid are visible all over them. Did they rest on a grate?"
+L.search_floor_alienflesh = "Alien flesh, you think? Sounds kinda outlandish. But your detective helper book lists it as a possible floor surface."
+L.search_floor_snow = "On first glance their clothing only feels wet and ice-cold. But once you see the white foam on the rims you understand. It's snow!"
+L.search_floor_plastic = "'Ouch, that has to hurt.' Their body is covered in burns. They look like those you get when sliding over a plastic surface."
+L.search_floor_metal = "At least they can't get tetanus now that they are dead. Rust covers their wounds. They probably died on a metal surface."
+L.search_floor_sand = "Small little rough rocks are stuck to their cold body. Like coarse sand from a beach. Argh, it gets everywhere!"
+L.search_floor_foliage = "Nature is wonderful. The victim's bloody wounds are covered with enough foliage that they are almost hidden."
+L.search_floor_computer = "Beep-boop. Their body is covered in computer surface! How does this look, you might ask? Well, duh!"
+L.search_floor_slosh = "Wet and maybe even a bit slimy. Their whole body is covered with it and their clothes are soaked. It stinks!"
+L.search_floor_tile = "Small shards are stuck to their skin. Like shards from floor tiles that shattered on inpact."
+L.search_floor_grass = "It smells like fresh cut grass. The smell almost overpowers the smell of blood and death."
+L.search_floor_vent = "You feel a fresh gust of air when feeling their body. Did they die in a vent and take the air with them?"
+L.search_floor_wood = "What's nicer than sitting on a hardwood floor and dwelling in thoughts? At least lot lying dead on a wooden floor!"
+L.search_floor_default = "That seems so basic, so normal. Almost default. You can't tell anything about the kind of surface."
+L.search_floor_glass = "Their body is covered with many bloody cuts. In some of them glass shards are stuck and look rather threatening to you."
+L.search_floor_warpshield = "A floor made out of warpshield? Yep, we are as confused as you were. But our notes clearly state it. Warpshield."
 
---L.search_water_1 = "The victim's shoes are wet, but the rest seems dry. They were probably killed with their feet in water."
---L.search_water_2 = "The victim's shoes are trousers are soaked through. Did they wander through water before they were killed?"
---L.search_water_3 = "The whole body is wet and swollen. They probably died while they were completely submerged."
+L.search_water_1 = "The victim's shoes are wet, but the rest seems dry. They were probably killed with their feet in water."
+L.search_water_2 = "The victim's shoes are trousers are soaked through. Did they wander through water before they were killed?"
+L.search_water_3 = "The whole body is wet and swollen. They probably died while they were completely submerged."
 
 L.search_weapon = "這顯示死者是被 {weapon} 所殺。"
 L.search_head = "最嚴重的傷口在頭部。完全沒機會叫喊。"
---L.search_time = "They died a while before you conducted the search."
---L.search_dna = "Retrieve a sample of the killer's DNA with a DNA Scanner. The DNA sample will decay after a while."
+L.search_time = "They died a while before you conducted the search."
+L.search_dna = "採集DNA樣本進行Dna掃描. DNA活性將會隨著時間降低."
 
 L.search_kills1 = "你找到一個名單，記載著他發現的死者：{player}"
 L.search_kills2 = "你找到了一個名單，記載著他殺的這些人：{player}"
 L.search_eyes = "透過你的探查技能，你確信他臨死前見到的最後一個人： {player}。是兇手，還是巧合？"
 
---L.search_credits = "The victim has {credits} equipment credit(s) in their pocket. A shopping role might take them and put them to good use. Keep an eye out!"
+L.search_credits = "受害者身上還有 {credits} 點裝備點數.如果可以購物的角色 會拿走他們的點數.請留意!"
 
---L.search_kill_distance_point_blank = "It was a point blank attack."
---L.search_kill_distance_close = "The attack came from a short distance."
---L.search_kill_distance_far = "The victim was attacked from a long distance away."
+L.search_kill_distance_point_blank = "這是被從近距離開槍死亡的跡象."
+L.search_kill_distance_close = "跡象顯示攻擊來自近距離."
+L.search_kill_distance_far = "跡象顯示受害者是被從遠距離射擊導致死亡."
 
---L.search_kill_from_front = "The victim was shot from the front."
---L.search_kill_from_back = "The victim was shot from behind."
---L.search_kill_from_side = "The victim was shot from the side."
+L.search_kill_from_front = "受害者是被從正面開槍的."
+L.search_kill_from_back = "受害者是被從背面開槍的."
+L.search_kill_from_side = "受害者是被從側面開槍的."
 
---L.search_hitgroup_head = "The projectile was found in their head."
---L.search_hitgroup_chest = "The projectile was found in their chest."
---L.search_hitgroup_stomach = "The projectile was found in their stomach."
---L.search_hitgroup_rightarm = "The projectile was found in their right arm."
---L.search_hitgroup_leftarm = "The projectile was found in their left arm."
---L.search_hitgroup_rightleg = "The projectile was found in their right leg."
---L.search_hitgroup_leftleg = "The projectile was found in their left leg."
---L.search_hitgroup_gear = "The projectile was found in their hip."
+L.search_hitgroup_head = "在頭部發現子彈."
+L.search_hitgroup_chest = "在胸口發現子彈."
+L.search_hitgroup_stomach = "在肚子發現子彈."
+L.search_hitgroup_rightarm = "右手發現子彈."
+L.search_hitgroup_leftarm = "左手發現子彈."
+L.search_hitgroup_rightleg = "右腳發現子彈."
+L.search_hitgroup_leftleg = "左腳發現子彈."
+L.search_hitgroup_gear = "在屁股裡面發現到子彈."
 
---L.search_policingrole_report_confirm = [[
---A public policing role can only be called to a dead body after the corpse was confirmed dead.]]
---L.search_policingrole_confirm_disabled_1 = [[
---The corpse can only be confirmed by a public policing role. Report the body to let them know!]]
---L.search_policingrole_confirm_disabled_2 = [[
---The corpse can only be confirmed by a public policing role. Report the body to let them know!
---You can see the information in here after they confirmed it.]]
---L.search_spec = [[
---As a spectator you are able to see all information of a corpse, but unable to interact with the UI.]]
+L.search_policingrole_report_confirm = [[
+A public policing role can only be called to a dead body after the corpse was confirmed dead.]]
+L.search_policingrole_confirm_disabled_1 = [[
+The corpse can only be confirmed by a public policing role. Report the body to let them know!]]
+L.search_policingrole_confirm_disabled_2 = [[
+The corpse can only be confirmed by a public policing role. Report the body to let them know!
+You can see the information in here after they confirmed it.]]
+L.search_spec = [[
+作為旁觀者,你可以看到屍體的所有訊息,但無法與 UI 互動.]]
 
 L.search_title_words = "受害者遺言"
 L.search_title_c4 = "拆彈失敗"
@@ -1939,25 +1939,25 @@ L.search_title_policingrole_report_confirm = "確認死亡"
 L.search_title_policingrole_confirm_disabled = "回報屍體位置"
 L.search_title_spectator = "你是觀戰者"
 
---L.target_credits_on_confirm = "Confirm to receive unspent credits"
---L.target_credits_on_search = "Search to receive unspent credits"
---L.corpse_hint_no_inspect_details = "Only public policing roles can find information on this body."
---L.corpse_hint_inspect_limited_details = "Only public policing roles can confirm the body."
---L.corpse_hint_spectator = "Press [{usekey}] to view corpse UI"
---L.corpse_hint_public_policing_searched = "Press [{usekey}] to view search results from public policing role"
+L.target_credits_on_confirm = "Confirm to receive unspent credits"
+L.target_credits_on_search = "Search to receive unspent credits"
+L.corpse_hint_no_inspect_details = "Only public policing roles can find information on this body."
+L.corpse_hint_inspect_limited_details = "Only public policing roles can confirm the body."
+L.corpse_hint_spectator = "Press [{usekey}] to view corpse UI"
+L.corpse_hint_public_policing_searched = "Press [{usekey}] to view search results from public policing role"
 
---L.label_inspect_confirm_mode = "Select body search mode"
---L.choice_inspect_confirm_mode_0 = "mode 0: standard TTT"
---L.choice_inspect_confirm_mode_1 = "mode 1: limited confirm"
---L.choice_inspect_confirm_mode_2 = "mode 2: limited search"
---L.help_inspect_confirm_mode = [[
---There are three different body search/confirm modes in this gamemode. The selection of this mode has huge influences to the importance of public policing roles like the detective.
---
---mode 0: This is standard TTT behavior. Everyone can search and confirm bodies. To report a body or to take the credits from it, the body first has to be confirmed. This makes it a bit harder for shopping roles to sneakily steal credits. However innocent players that want to report the body to call a public policing player need to confirm first as well.
---
---mode 1: This mode increases the importance of public policing roles by limiting the confirmation option to them. This also means that taking credits and reporting bodies is now also possible before confirming a body. Everybody can still search dead bodies and find the information, but they are unable to announce the found information.
---
---mode 2: This mode is yet a bit more strict than mode 1. In this mode the search ability is removed as well from normal players. This means that reporting a dead body to a public policing player is now the only way to get any information from dead bodies.]]
+L.label_inspect_confirm_mode = "Select body search mode"
+L.choice_inspect_confirm_mode_0 = "mode 0: standard TTT"
+L.choice_inspect_confirm_mode_1 = "mode 1: limited confirm"
+L.choice_inspect_confirm_mode_2 = "mode 2: limited search"
+L.help_inspect_confirm_mode = [[
+There are three different body search/confirm modes in this gamemode. The selection of this mode has huge influences to the importance of public policing roles like the detective.
+
+mode 0: This is standard TTT behavior. Everyone can search and confirm bodies. To report a body or to take the credits from it, the body first has to be confirmed. This makes it a bit harder for shopping roles to sneakily steal credits. However innocent players that want to report the body to call a public policing player need to confirm first as well.
+
+mode 1: This mode increases the importance of public policing roles by limiting the confirmation option to them. This also means that taking credits and reporting bodies is now also possible before confirming a body. Everybody can still search dead bodies and find the information, but they are unable to announce the found information.
+
+mode 2: This mode is yet a bit more strict than mode 1. In this mode the search ability is removed as well from normal players. This means that reporting a dead body to a public policing player is now the only way to get any information from dead bodies.]]
 
 -- 2023-10-19
 --L.label_grenade_trajectory_ui = "Grenade trajectory indicator"
@@ -1989,16 +1989,16 @@ L.label_keyhelper_mutespec = "禁音"
 L.label_keyhelper_show_pointer = "顯示鼠標"
 L.label_keyhelper_spec_player = "觀察隨機玩家"
 L.label_keyhelper_shop = "開啟裝備商店"
---L.label_keyhelper_possess_focus_entity = "possess focused entity"
---L.label_keyhelper_spec_focus_player = "spectate focused player"
+L.label_keyhelper_possess_focus_entity = "possess focused entity"
+L.label_keyhelper_spec_focus_player = "spectate focused player"
 L.label_keyhelper_spec_previous_player = "上一位玩家"
 L.label_keyhelper_spec_next_player = "下一位玩家"
---L.label_keyhelper_possession_jump = "prop: jump"
---L.label_keyhelper_possession_left = "prop: left"
---L.label_keyhelper_possession_right = "prop: right"
---L.label_keyhelper_possession_forward = "prop: forward"
---L.label_keyhelper_possession_backward = "prop: backward"
---L.label_keyhelper_free_roam = "leave object and roam free"
+L.label_keyhelper_possession_jump = "prop: jump"
+L.label_keyhelper_possession_left = "prop: left"
+L.label_keyhelper_possession_right = "prop: right"
+L.label_keyhelper_possession_forward = "prop: forward"
+L.label_keyhelper_possession_backward = "prop: backward"
+L.label_keyhelper_free_roam = "leave object and roam free"
 L.label_keyhelper_flashlight = "開啟手電筒"
 L.label_keyhelper_quickchat = "打開快速談話"
 L.label_keyhelper_voice_global = "全部對話"
@@ -2025,10 +2025,10 @@ L.crowbar_help_primary = "攻擊"
 L.crowbar_help_secondary = "推開玩家"
 
 -- 2023-10-27
---L.help_HUD_enable_description = [[
---Some HUD elements like the key helper or sidebar show detailed information when the scoreboard is open. This can be disabled to reduce clutter.]]
---L.label_HUD_enable_description = "Enable descriptions when scoreboard is open"
---L.label_HUD_enable_box_blur = "Enable UI box background blur"
+L.help_HUD_enable_description = [[
+Some HUD elements like the key helper or sidebar show detailed information when the scoreboard is open. This can be disabled to reduce clutter.]]
+L.label_HUD_enable_description = "Enable descriptions when scoreboard is open"
+L.label_HUD_enable_box_blur = "Enable UI box background blur"
 
 -- 2023-10-28
 L.submenu_gameplay_voiceandvolume_title = "聲音 & 音量"
@@ -2036,9 +2036,9 @@ L.header_soundeffect_settings = "聲音效果"
 L.header_voiceandvolume_settings = "Voice & Volume Settings"
 
 -- 2023-11-06
---L.drop_reserve_prevented = "Something prevents you from dropping your reserve ammo."
---L.drop_no_reserve = "Insufficient ammo in your reserve to drop as an ammo box."
---L.drop_no_room_ammo = "You have no room here to drop your ammo!"
+L.drop_reserve_prevented = "Something prevents you from dropping your reserve ammo."
+L.drop_no_reserve = "Insufficient ammo in your reserve to drop as an ammo box."
+L.drop_no_room_ammo = "You have no room here to drop your ammo!"
 
 -- 2023-11-14
 L.hat_deerstalker_name = "警探帽"
@@ -2054,8 +2054,8 @@ L.hat_deerstalker_name = "警探帽"
 --L.label_keyhelper_ammo_drop = "drop ammo from selected weapon out of clip"
 
 -- 2023-12-07
---L.c4_help_primary = "Place the C4"
---L.c4_help_secondary = "Stick to surface"
+L.c4_help_primary = "放置 C4"
+L.c4_help_secondary = "將它黏在表面"
 
 -- 2023-12-11
 L.magneto_help_primary = "推開物體"
@@ -2180,12 +2180,12 @@ L.decoy_help_primary = "安放誘餌"
 --L.grenade_fuse = "FUSE"
 
 -- 2024-01-25
---L.header_roles_magnetostick = "Magneto Stick"
---L.label_roles_ragdoll_pinning = "Enable ragdoll pinning"
---L.magneto_stick_help_carry_rag_pin = "Pin ragdoll"
---L.magneto_stick_help_carry_rag_drop = "Drop ragdoll"
---L.magneto_stick_help_carry_prop_release = "Release prop"
---L.magneto_stick_help_carry_prop_drop = "Drop prop"
+L.header_roles_magnetostick = "磁力棒"
+L.label_roles_ragdoll_pinning = "開啟布娃娃固定"
+L.magneto_stick_help_carry_rag_pin = "Pin ragdoll"
+L.magneto_stick_help_carry_rag_drop = "Drop ragdoll"
+L.magneto_stick_help_carry_prop_release = "Release prop"
+L.magneto_stick_help_carry_prop_drop = "Drop prop"
 
 -- 2024-02-14
 --L.throw_no_room = "You have no space here to throw this device"
